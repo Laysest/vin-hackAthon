@@ -1,0 +1,119 @@
+{
+    "data": {
+        "metadata": {
+            "app_name": "Cửa hàng cơm tấm Sài Gòn",
+            "app_id": 123456,
+            "title": "Đặt bữa trưa",
+            "submit_button": {
+                "label": "Gửi thông tin",
+                "background_color": "#6666ff",
+                "cta": "request",
+                "url": "http://54.169.254.105/test_api"
+            },
+            "reset_button": {
+                "label": "Xóa toàn bộ",
+                "background_color": "#669999"
+            },
+            "elements": [{
+                    "label": "Món chính*",
+                    "type": "checkbox",
+                    "display_type": "inline",
+                    "required": true,
+                    "error": "Thông tin này là bắt buộc",
+                    "name": "primary_meal",
+                    "placeholder": "Món ăn chính",
+                    "options": [{
+                            "label": "Thịt lợn",
+                            "value": "pig_meat"
+                        },
+                        {
+                            "label": "Thịt gà",
+                            "value": "chicken_meat"
+                        },
+                        {
+                            "label": "Thịt chó",
+                            "value": "dog_meat"
+                        },
+                        {
+                            "label": "Thịt vịt",
+                            "value": "duck_meat"
+                        }
+                    ]
+                },
+                {
+                    "label": "Món rau",
+                    "type": "radio",
+                    "display_type": "inline",
+                    "required": true,
+                    "name": "vegetable",
+                    "options": [{
+                            "label": "Rau cải luộc",
+                            "value": "cai_luoc"
+                        },
+                        {
+                            "label": "Su su xào",
+                            "value": "susu"
+                        },
+                        {
+                            "label": "Rau muống luộc",
+                            "value": "rau_muong"
+                        },
+                        {
+                            "label": "Cà muối",
+                            "value": "ca_muoi"
+                        }
+                    ]
+                },
+                {
+                    "label": "Tráng miệng",
+                    "type": "checkbox",
+                    "display_type": "checkbox",
+                    "placeholder": "Hoa quả và kem",
+                    "name": "meal_preferences_3",
+                    "options": [{
+                            "label": "Kem",
+                            "value": "hindu"
+                        },
+                        {
+                            "label": "Dưa hấu",
+                            "value": "vegan"
+                        },
+                        {
+                            "label": "Dưa chuột",
+                            "value": "kosher"
+                        },
+                        {
+                            "label": "Dưa lê",
+                            "value": "kosher"
+                        },
+                        {
+                            "label": "Dưa gang",
+                            "value": "kosher"
+                        },
+                        {
+                            "label": "Dưa hồng vỏ đỏ",
+                            "value": "kosher"
+                        },
+                        {
+                            "label": "Dưa lê vỏ vàng",
+                            "value": "kosher"
+                        },
+                        {
+                            "label": "Chè",
+                            "value": "burrito"
+                        }
+                    ]
+                },
+                {
+                    "type": "input",
+                    "input_type": "textarea",
+                    "label": "Lưu ý",
+                    "required": true,
+                    "name": "comment",
+                    "error": "Có lỗi xảy ra. Vui lòng nhập lại",
+                    "placeholder": "Lưu ý khi đặt món ăn"
+                }
+            ]
+        }
+    }
+}

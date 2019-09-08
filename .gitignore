@@ -1,0 +1,11 @@
+# npm
+server_response/node_modules
+server_response/package-lock.json
+*.log
+*.gz
+
+tool_create/node_modules
+tool_create/package-lock.json
+
+service_storage/node_modules
+service_storage/package-lock.json

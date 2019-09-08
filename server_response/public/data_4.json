@@ -1,0 +1,20 @@
+{
+    "data": {
+        "metadata": {
+            "app_name": "Next_1",
+            "app_id": 123456,
+            "title": "Next_1",
+            "submit_button": {
+                "label": "Gửi thông tin",
+                "background_color": "#6666ff",
+                "cta": "request",
+                "url": "http://54.169.254.105/test_api?id=4"
+            },
+            "reset_button": {
+                "label": "Xóa toàn bộ",
+                "background_color": "#669999"
+            },
+            "elements": []
+        }
+    }
+}

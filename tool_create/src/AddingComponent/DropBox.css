@@ -1,0 +1,36 @@
+.Drop-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.Drop-image-preview {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+  
+.Drop-drag-active {
+    font-weight: bold;
+    border: 3px dashed red;
+    padding: 0.2em;
+}
+  
+.Drop-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.Drop-image-uploaded {
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: cover;
+}
+  
+.Drop-align-center {
+    display: flex;
+    align-items: center;
+}

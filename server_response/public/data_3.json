@@ -1,0 +1,37 @@
+{
+    "data": {
+        "metadata": {
+            "app_name": "Cửa hàng cơm tấm Sài Gòn",
+            "app_id": 123456,
+            "title": "Đặt bữa trưa",
+            "submit_button": {
+                "label": "Gửi thông tin",
+                "background_color": "#6666ff",
+                "cta": "request",
+                "url": "http://54.169.254.105/test_api?id=3"
+            },
+            "reset_button": {
+                "label": "Xóa toàn bộ",
+                "background_color": "#669999"
+            },
+            "elements": [{
+                "label": "Next(*)",
+                "type": "radio",
+                "display_type": "inline",
+                "required": true,
+                "error": "Thông tin này là bắt buộc",
+                "name": "next",
+                "placeholder": "next",
+                "options": [{
+                        "label": "next_1",
+                        "value": "next_1"
+                    },
+                    {
+                        "label": "next_2",
+                        "value": "next_2"
+                    }
+                ]
+            }]
+        }
+    }
+}

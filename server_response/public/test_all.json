@@ -1,0 +1,74 @@
+{
+  "data": {
+    "metadata": {
+      "app_name": "Uni",
+      "app_id": 123456,
+      "title": "Test Full",
+      "submit_button": {
+        "label": "Gửi thông tin",
+        "background_color": "#6666ff",
+        "cta": "request",
+        "url": "http://54.169.254.105/api/get_examples?form_id=2"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "style": "heading",
+          "content": "Header"
+        },
+        {
+          "type": "text",
+          "style": "paragraph",
+          "content": "paragraph"
+        },
+        {
+          "type": "input",
+          "input_type": "textarea",
+          "label": "Input",
+          "name": "31qccrne4hksjzql6u7fbr"
+        },
+        {
+          "type": "checkbox",
+          "label": "Checkbox",
+          "name": "6j5zxrgqyzukq7514vvkdh",
+          "display_type": "inline",
+          "options": [
+            {
+              "value": "option 1",
+              "label": "option 1"
+            },
+            {
+              "value": "option 2",
+              "label": "option 2"
+            }
+          ]
+        },
+        {
+          "type": "radio",
+          "label": "Radio",
+          "name": "mezbm40zvalfw8m8g3y1",
+          "display_type": "inline",
+          "options": [
+            {
+              "value": "option 1",
+              "label": "option 1"
+            },
+            {
+              "value": "option 2",
+              "label": "option 2"
+            }
+          ]
+        },
+        {
+          "type": "web",
+          "content": "<html><body><img src=\"http://res.cloudinary.com/vtoan/image/upload/v1567872605/wz5vqvgdsxziefbzshl1.jpg\" alt=\"Trulli\" width=\"350\" height=\"333\"></body></html>",
+          "imageUrl": "http://res.cloudinary.com/vtoan/image/upload/v1567872605/wz5vqvgdsxziefbzshl1.jpg"
+        }
+      ]
+    },
+    "link_form_ids": [
+      "4"
+    ],
+    "form_id:": 2
+  }
+}
