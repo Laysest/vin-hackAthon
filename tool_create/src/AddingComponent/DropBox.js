@@ -72,7 +72,7 @@ export default function DropBox(props) {
             </div>
           );
         }}
-      </Dropzone>
+      </Dropzone >
       <ListFiles files={files} />
       {files.length > 0 && (
         <div className="Drop-align-center">
